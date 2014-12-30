@@ -15,7 +15,7 @@
 project (data)
 
 # to determine the shared directory path to build
-find_package (cisst REQUIRED)
+find_package (cisst)
 
 if (cisst_FOUND)
 
